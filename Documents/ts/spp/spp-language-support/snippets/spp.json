@@ -1,0 +1,235 @@
+{
+  "Variable Declaration": {
+    "prefix": "granteth yonder",
+    "body": ["granteth yonder varName withUtmostRespect"],
+    "description": "Hark! Declare ye a new variable for our cause!"
+  },
+  "Variable Initialization": {
+    "prefix": "granteth yonder",
+    "body": ["granteth yonder varName equivalethTo value withUtmostRespect"],
+    "description": "Endow a variable with its destined value!"
+  },
+  "Constant Initialization": {
+    "prefix": "steadFast yonder",
+    "body": ["steadFast yonder varName equivalethTo value withUtmostRespect"],
+    "description": "Endow a steadfast variable with its destined value!"
+  },
+  "For Loop": {
+    "prefix": "forsoothCyclethThroughThyRange",
+    "body": [
+      "forsoothCyclethThroughThyRange(",
+      "granteth yonder i equivalethTo value withUtmostRespect",
+      "i `lessThanThou` 10 withUtmostRespect",
+      "i equivalethTo i addethPolitelyWith 1 withUtmostRespect){}"
+    ],
+    "description": "A modest forsooth-thou-loop"
+  },
+  "While Loop": {
+    "prefix": "whilstThouConditionHolds",
+    "body": ["whilstThouConditionHolds(){}"],
+    "description": "A modest whilst-thou-loop"
+  },
+  "Function": {
+    "prefix": "summonThouMechanism",
+    "body": ["summonThouMechanism function(){}"],
+    "description": "A magical incantation, summoned to do thy bidding!"
+  },
+  "If Statement": {
+    "prefix": "providethThouFindestThyConditionTrue",
+    "body": ["providethThouFindestThyConditionTrue(){}"],
+    "description": "When fortune favors, pursue this course!"
+  },
+  "Else Statement": {
+    "prefix": "elsewiseRunnethThis",
+    "body": ["elsewiseRunnethThis{}"],
+    "description": "Otherwise, take ye another route!"
+  },
+  "If Else Statement": {
+    "prefix": "providethThouFindestThyConditionTrue",
+    "body": ["providethThouFindestThyConditionTrue(){", "} elsewiseRunnethThis{}"],
+    "description": "When fate smiles, do this; else, try another way!"
+  },
+  "If Else If Statement": {
+    "prefix": "providethThouFindestThyConditionTrue",
+    "body": [
+      "providethThouFindestThyConditionTrue(){",
+      "} elsewiseRunnethThis providethThouFindestThyConditionTrue(){}"
+    ],
+    "description": "Should one path fail, seek another; elsewise, continue!"
+  },
+  "Null": {
+    "prefix": "ashollowAsAFoolsHead",
+    "body": ["ashollowAsAFoolsHead"],
+    "description": "A void where naught doth dwell!"
+  },
+  "False": {
+    "prefix": "asFalseAsAFlimsyFabric",
+    "body": ["asFalseAsAFlimsyFabric"],
+    "description": "A knavish lie, untrue and hollow!"
+  },
+  "True": {
+    "prefix": "asTrueAsTheLightOfDay",
+    "body": ["asTrueAsTheLightOfDay"],
+    "description": "A beacon of truth, shining bright!"
+  },
+  "=": {
+    "prefix": "equivalethTo",
+    "body": ["equivalethTo"],
+    "description": "Hand over this value to thy variable!"
+  },
+  "+": {
+    "prefix": "addethPolitelyWith",
+    "body": ["addethPolitelyWith"],
+    "description": "Joineth together, like two hearts in love!"
+  },
+  "-": {
+    "prefix": "subtractethPolitelyWith",
+    "body": ["subtractethPolitelyWith"],
+    "description": "Part ways, as two ships at sea!"
+  },
+  "*": {
+    "prefix": "multiplethPolitelyWith",
+    "body": ["multiplethPolitelyWith"],
+    "description": "Multiply, like rabbits in spring!"
+  },
+  "/": {
+    "prefix": "dividethPolitelyWith",
+    "body": ["dividethPolitelyWith"],
+    "description": "Split asunder, like a kingdom torn!"
+  },
+  "%": {
+    "prefix": "modulethPolitelyWith",
+    "body": ["modulethPolitelyWith"],
+    "description": "What remaineth after all is spent!"
+  },
+  "&&": {
+    "prefix": "`andeth`",
+    "body": ["`andeth`"],
+    "description": "Both must be true, else all is lost!"
+  },
+  "||": {
+    "prefix": "`either`",
+    "body": ["`either`"],
+    "description": "If either be true, proceed forthwith!"
+  },
+  "==": {
+    "prefix": "`equivalethTo`",
+    "body": ["`equivalethTo`"],
+    "description": "Are they equal? Only truth will tell!"
+  },
+  "!=": {
+    "prefix": "`notEquivalethTo`",
+    "body": ["`notEquivalethTo`"],
+    "description": "Not the same, like day and night!"
+  },
+  "<": {
+    "prefix": "`lessThanThou`",
+    "body": ["`lessThanThou`"],
+    "description": "Lesser in worth, like a squire to a knight!"
+  },
+  ">": {
+    "prefix": "`greaterThanThou`",
+    "body": ["`greaterThanThou`"],
+    "description": "Mightier than, as a king over his subjects!"
+  },
+  "<=": {
+    "prefix": "`lessThanThouEquivalethToThou`",
+    "body": ["`lessThanThouEquivalethToThou`"],
+    "description": "Not above, yet equal in worth!"
+  },
+  ">=": {
+    "prefix": "`greaterThanThouEquivalethToThou`",
+    "body": ["`greaterThanThouEquivalethToThou`"],
+    "description": "Either equal or loftier in stature!"
+  },
+  ".": {
+    "prefix": "fullethStop`",
+    "body": ["fullethStop`"],
+    "description": "A point of connection, linking worlds apart!"
+  },
+  ",": {
+    "prefix": "invokeThouComma",
+    "body": ["invokeThouComma"],
+    "description": "A brief pause, like breath 'twixt words!"
+  },
+  ":": {
+    "prefix": "summonThyColon",
+    "body": ["summonThyColon"],
+    "description": "Prepare thyself, for more is to follow!"
+  },
+  "Statement Terminator": {
+    "prefix": "withUtmostRespect",
+    "body": ["withUtmostRespect"],
+    "description": "And thus, the tale ends!"
+  },
+  "abs()": {
+    "prefix": "unveilThyAbsoluteWorth()",
+    "body": ["calculationShenanigans fullethStop unveilThyAbsoluteWorth(num)"],
+    "description": "Cast away the minus, reveal the worth within!"
+  },
+  "sqrt()": {
+    "prefix": "revealThouRootsWhimsy()",
+    "body": ["calculationShenanigans fullethStop revealThouRootsWhimsy(num)"],
+    "description": "Unravel the root, half of the square's might!"
+  },
+  "random()": {
+    "prefix": "witnessThisErrantDigit()",
+    "body": ["calculationShenanigans fullethStop witnessThisErrantDigit(min invokeThouComma max)"],
+    "description": "Draw from chance, as fate rolls the dice!"
+  },
+  "log2()": {
+    "prefix": "logOfTwosMeasure()",
+    "body": ["calculationShenanigans fullethStop logOfTwosMeasure(num)"],
+    "description": "Seek the binary truth, where powers of two reside!"
+  },
+  "log10()": {
+    "prefix": "logOfTenFold()",
+    "body": ["calculationShenanigans fullethStop logOfTenFold(num)"],
+    "description": "Unveil the logarithm, where tenfold tales are told!"
+  },
+  "max()": {
+    "prefix": "greatestOfThemAll()",
+    "body": ["calculationShenanigans fullethStop greatestOfThemAll(arguments)"],
+    "description": "Crown the greatest, none shall surpass! (Able to feast upon infinite arguments)"
+  },
+  "min()": {
+    "prefix": "littlestOfThemAll()",
+    "body": ["calculationShenanigans fullethStop littlestOfThemAll(arguments)"],
+    "description": "Find the least, humblest of them all (Able to feast upon infinite arguments)!"
+  },
+  "inputString()": {
+    "prefix": "readethThineStringInput()",
+    "body": ["readethThineStringInput()"],
+    "description": "Speak thy words, and they shall be received!"
+  },
+  "inputNum()": {
+    "prefix": "readethThineNumInput()",
+    "body": ["readethThineNumInput()"],
+    "description": "Give forth thy digits, for they shall be counted!"
+  },
+  "time()": {
+    "prefix": "revealThyTime()",
+    "body": ["revealThyTime()"],
+    "description": "what hour strikes now! (in millisecond)"
+  },
+  "import()": {
+    "prefix": "summonYonFile()",
+    "body": ["summonYonFile(\"filename.spp\")"],
+    "description": "Bring forth treasures from yonder lands!"
+  },
+  "print()": {
+    "prefix": "printethThouWordsForAllToSee",
+    "body": ["printethThouWordsForAllToSee()"],
+    "description": "Bring forth treasures from yonder lands!"
+  },
+  "comments": {
+    "prefix": "scribeThyThoughtsInSecretLines",
+    "body": ["scribeThyThoughtsInSecretLines\nendethSecretLines"],
+    "description": "Put forth thou thoughts in secret lines!"
+  },
+  "end-comment": {
+    "prefix": "endethSecretLines",
+    "body": ["endethSecretLines"],
+    "description": "Put an end to thy secret lines!"
+  }
+}
