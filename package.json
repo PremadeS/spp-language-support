@@ -1,0 +1,58 @@
+{
+  "name": "spp",
+  "publisher": "PremadeS",
+  "displayName": "Shakespeare++",
+  "icon": "resources/icon.png",
+  "description": "Assistance in the Grand Language of Shakespeare++",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PremadeS/spp-language-support"
+  },
+  "bugs": {
+    "url": "https://github.com/PremadeS/spp-language-support/issues"
+  },
+  "homepage": "https://shakespeareplusplus.vercel.app/",
+  "license": "MIT",
+  "keywords": [
+    "Shakespeare++",
+    "shakespeare++",
+    "spp",
+    "Shakespeareplusplus",
+    "shakespeareplusplus"
+  ],
+  "engines": {
+    "vscode": "^1.90.2"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "spp",
+        "aliases": [
+          "Shakespeare++",
+          "spp"
+        ],
+        "extensions": [
+          ".spp"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "spp",
+        "scopeName": "source.spp",
+        "path": "./syntaxes/spp.tmLanguage.json"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "spp",
+        "path": "./snippets/spp.json"
+      }
+    ]
+  }
+}

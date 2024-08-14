@@ -1,0 +1,70 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "Shakespeare++",
+  "patterns": [
+    {
+      "name": "comment.block",
+      "begin": "scribeThyThoughtsInSecretLines",
+      "end": "endethSecretLines",
+      "beginCaptures": {
+        "0": {
+          "name": "comment.block.start"
+        }
+      },
+      "endCaptures": {
+        "0": {
+          "name": "comment.block.end"
+        }
+      },
+      "patterns": [
+        {
+          "name": "comment.block.content",
+          "match": ".+"
+        }
+      ]
+    },
+    {
+      "name": "keyword.control",
+      "match": "\\b(forsoothCyclethThroughThyRange|whilstThouConditionHolds|summonThouMechanism|providethThouFindestThyConditionTrue|elsewiseRunnethThis)\\b"
+    },
+    {
+      "name": "entity.name.tag",
+      "match": "\\b(calculationShenanigans|asHollowAsAFoolsHead|asTrueAsTheLightOfDay|asFalseAsAFlimsyFabric|steadFast|granteth|yonder|withUtmostRespect)\\b"
+    },
+    {
+      "name": "entity.name.type",
+      "match": "\\b(equivalethTo|addethPolitelyWith|subtractethPolitelyWith|multiplethPolitelyWith|dividethPolitelyWith|modulethPolitelyWith|summonYonFile)\\b"
+    },
+    {
+      "name": "entity.name.function",
+      "match": "\\b(\\w+)\\(",
+      "captures": {
+        "1": {
+          "name": "entity.name.function"
+        }
+      }
+    },
+    {
+      "name": "constant.numeric",
+      "match": "\\b\\d+\\b"
+    },
+    {
+      "name": "keyword.operator",
+      "match": "(summonThyColon|invokeThouComma|fullethStop|`andeth`|`either`|`equivalethTo`|`notEquivalethTo`|`lessThanThou`|`greaterThanThou`|`lessThanEquivalethToThou`|`greaterThanEquivalethToThou`)"
+    },
+    {
+      "name": "string.quoted.double",
+      "match": "\"([^\"\\\\]*(\\\\.[^\"\\\\]*)*)\""
+    },
+    {
+      "name": "variable.name",
+      "match": "\\b\\w+\\b",
+      "captures": {
+        "0": {
+          "name": "variable.name"
+        }
+      }
+    }
+  ],
+  "scopeName": "source.spp"
+}
