@@ -1,6 +1,6 @@
 # **_Shakespeare++_**
 
-Behold! A _VSCode_ extension for **Shakespeare++**, enriching thine code with illustrious **_syntax highlights_** and **_snippets_**!
+Behold! A _VSCode_ extension for **[Shakespeare++](https://github.com/PremadeS/shakespeare-plus-plus)**, enriching thine code with illustrious **_syntax highlights_** and **_snippets_**!
 
 ## **Wonders**
 
